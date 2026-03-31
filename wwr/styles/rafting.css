@@ -1,13 +1,7 @@
 :root {
-    --main-color: red;
-    --minor-color: gray;
-
-}
-
-:root {
     --primary-color: blue;
     --secondary-color: gold;
-    --accent1-color: white;
+    /* --accent1-color: white; */
     --accent2-color: black;
     --heading-font: "Roboto", Arial, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
