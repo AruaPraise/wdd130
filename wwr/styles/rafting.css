@@ -48,7 +48,7 @@ article {
     object-fit: cover;
 }
 
-h1 {
+h1 .h11 {
     position: absolute;
     top: 15px;
     width: 100%;
@@ -169,6 +169,10 @@ footer {
     background-color: #eee;
 }
 
+.hero {
+    text-align: center;
+}
+
 /* Main contact styles  */
 .two {
     display: flex;
@@ -182,6 +186,20 @@ footer {
     padding: 10px 15px;
     width: 400px;
     height: 300px;
+
+}
+
+.mapu {
+    padding: 0px 8px;
+}
+
+.entermessage {
+    padding: 20px 0
+}
+
+form {
+    display: flex;
+    padding: 20px 0;
 }
 
 #fmde {
