@@ -35,7 +35,7 @@
                   width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="employee-info">
+            <!-- <div class="employee-info">
                 <div>
                     <label for="name">Name</label>
                     <input type="text" id="name" placeholder="Enter your name">
@@ -56,18 +56,65 @@
 
                         <input type="radio" id="Wesu" name="check" value="option">
                         <label for="Wesu">Website suggestion</label><br>
+                    </div><br>
+                    <div class="entermessage">
+                        <label for="fmde">Message</label> <br>
+                        <input type="text" id="fmde" placeholder="Enter your message">
+                    </div><br>
+                    <div>
+                        <input type="checkbox" id="agree">
+                        <label for="agree">Please subscribe me to the monthly newsletter</label>
                     </div>
+
+                    <button>Get in touch!</button>
                 </form>
+            </div> -->
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <div class="group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name"
+                          required>
+                    </div>
 
-                <div class="entermessage">
-                    <label for="fmde">Message</label> <br>
-                    <input type="text" id="fmde" placeholder="Enter your message">
-                </div>
+                    <div class="group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email"
+                          required>
+                    </div>
 
-                <input type="checkbox" id="agree">
-                <label for="agree">Please subscribe me to the monthly newsletter</label>
+                    <div class="group">
+                        <label>Inquiry Type</label>
+                        <div class="radio-group">
+                            <label class="radio-item">
+                                <input type="radio" name="inquiry" value="general" checked> General
+                                Inquiry
+                            </label>
+                            <label class="radio-item">
+                                <input type="radio" name="inquiry" value="reservation"> Reservation
+                                Question
+                            </label>
+                            <label class="radio-item">
+                                <input type="radio" name="inquiry" value="suggestion"> Website
+                                Suggestion
+                            </label>
+                        </div>
+                    </div>
 
-                <button>Get in touch!</button>
+                    <div class="group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                          placeholder="Enter your message" required></textarea>
+                    </div>
+
+                    <div class="group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly
+                            newsletter</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Get in touch!</button>
+                </form>
             </div>
         </div>
         <div>
